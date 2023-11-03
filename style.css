@@ -16,8 +16,11 @@ html {
 header {
     
     text-align: center;
+    
     font-family: "Merriweather";
     color: #AAA;
+    
+    margin: 20px;
     
 }
 
@@ -28,23 +31,32 @@ nav {
     justify-content: center;
     
     font-family: "Merriweather";
-    color: #AAA;
+    color: #FFF;
+    background-image: url("Images/shutterstock_2369797369.jpg");
     
-    background-color: #A00;
     margin-bottom: 20px;
     
 }
 
 nav h2 {
     
+    background-color: #000a;
+    
+    padding: 10px;
     margin: 15px;
+    
+    border-radius: 15px;
     
 }
 
 nav h2:hover {
     
-    cursor: pointer;
     color: #A80;
+    background-color: #000;
+    
+    cursor: pointer;
+    transition: 0.3s;
+    
 }
 
 main {
@@ -52,16 +64,19 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
     font-family: "Merriweather";
     
 }
 
 a {
     
-    padding: 15px;
-    margin: 10px;
     color: #A00;
     background-color: #AAA;
+    
+    padding: 15px;
+    margin: 10px;
+    
     border-radius: 10px;
     
 }
@@ -74,9 +89,10 @@ a:visited {
 
 a:hover {
     
-    cursor: pointer;
     color: #A03;
     background-color: #000;
+    
+    cursor: pointer;
     transition: 0.3s;
     
 }
@@ -85,6 +101,25 @@ a:hover {
     
     display: flex;
     flex-direction: column;
+    text-align: center;
+    
+}
+
+.link {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #AAA;
+        
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 15px;
+    
+    border-radius: 15px;
+    font-size: 20px;
     
 }
 
@@ -108,7 +143,8 @@ a:hover {
 
 #releases a {
     
-    padding: 25px;
+    padding: 10px;
+    margin: 10px;
     
 }
 

@@ -26,7 +26,7 @@ class Release {
         let rd = document.createElement("div");
         rd.innerHTML += `<h2>${name}</h2>`
         rd.innerHTML += sc;
-        rd.innerHTML += `<a href=${dl} target="_BLANK">FREE DL</a>   <a href=${spot} target="_BLANK">SPOTIFY</a>   <a href=${appl} target="_BLANK">APPLE MUSIC</a>`;
+        rd.innerHTML += `<a href=${dl} target="_BLANK">FREE DL</a>   <a href=${spot} target="_BLANK">SPOTIFY</a>  <a href=${appl} target="_BLANK">APPLE MUSIC</a>`;
         document.getElementById("releases").appendChild(rd);
         
     }
