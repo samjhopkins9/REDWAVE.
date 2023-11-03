@@ -4,8 +4,8 @@ let spotlink = "https://open.spotify.com/artist/3DUGOEQlHtDibMS73uULP8?si=WNgl6p
 let applink = "https://music.apple.com/us/artist/redwave/1704251598";
 let soundlink = "https://soundcloud.com/whoisredwave";
 
-let instalink = "http://instagram.com/redwave._music";
-let twtrlink = "https://twitter.com/redwave_music";
+let instalink = "http://instagram.com/whoisredwave";
+let twtrlink = "https://twitter.com/whoisredwave";
 
 let immortal = new Release("Immortal", immortalsc, immortalspot, immortalappl, immortaldl)
 let motor = new Release("Motor", motorsc, motorspot, motorappl, motordl)
