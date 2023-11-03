@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "Merriweather";
+    src: url("Fonts/SometypeMono-Regular.ttf"), format("truetype");
+    
+}
+
+html {
+    
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+header {
+    
+    text-align: center;
+    font-family: "Merriweather";
+    color: #AAA;
+    
+}
+
+nav {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    font-family: "Merriweather";
+    color: #AAA;
+    
+    background-color: #A00;
+    margin-bottom: 20px;
+    
+}
+
+nav h2 {
+    
+    margin: 15px;
+    
+}
+
+nav h2:hover {
+    
+    cursor: pointer;
+    color: #A80;
+}
+
+main {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Merriweather";
+    
+}
+
+a {
+    
+    padding: 15px;
+    margin: 10px;
+    color: #A00;
+    background-color: #AAA;
+    border-radius: 10px;
+    
+}
+
+a:visited {
+    
+    color: #A00;
+    
+}
+
+a:hover {
+    
+    cursor: pointer;
+    color: #A03;
+    background-color: #000;
+    transition: 0.3s;
+    
+}
+
+#links {
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#releases {
+    
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    
+    color: #AAA;
+    
+}
+
+#releases div {
+    
+    margin: 50px;
+    align-items: center;
+    text-align: center;
+        
+}
+
+#releases a {
+    
+    padding: 25px;
+    
+}
+
+footer {
+    
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Merriweather";
+    color: #AAA;
+    
+}
