@@ -147,7 +147,7 @@ a:hover {
 
 #releases div {
     
-    margin: 50px;
+    margin: 20px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -175,6 +175,12 @@ footer {
     html {
         
         zoom: 200%;
+        
+    }
+    
+    #releases a {
+        
+        font-size: 10px;
         
     }
     
