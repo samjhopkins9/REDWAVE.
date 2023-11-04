@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Merriweather";
-    src: url("Fonts/SometypeMono-Regular.ttf"), format("truetype");
+    src: url("Fonts/Cinzel-Regular.ttf"), format("truetype");
     
 }
 
@@ -16,6 +16,8 @@ html {
 header {
     
     text-align: center;
+    position: sticky;
+    top: 0px;
     
     font-family: "Merriweather";
     color: #AAA;
@@ -29,6 +31,8 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    position: sticky;
+    top: 0px;
     
     font-family: "Merriweather";
     color: #FFF;
@@ -45,13 +49,13 @@ nav h2 {
     padding: 10px;
     margin: 15px;
     
-    border-radius: 15px;
+    border-radius: 2px;
     
 }
 
 nav h2:hover {
     
-    color: #A80;
+    color: #A00;
     background-color: #000;
     
     cursor: pointer;
@@ -83,7 +87,7 @@ a {
 
 a:visited {
     
-    color: #A00;
+    color: #A0A;
     
 }
 
@@ -101,8 +105,7 @@ a:hover {
     
     display: flex;
     flex-direction: column;
-    text-align: center;
-    
+
 }
 
 .link {
@@ -129,7 +132,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     
-    color: #AAA;
+    color: #A00;
     
 }
 
@@ -137,6 +140,7 @@ a:hover {
     
     margin: 50px;
     align-items: center;
+    justify-content: center;
     text-align: center;
         
 }
@@ -154,5 +158,15 @@ footer {
     margin-top: 50px;
     font-family: "Merriweather";
     color: #AAA;
+    
+}
+
+@media only screen and (max-width: 1000px) {
+    
+    html {
+        
+        zoom: 150%;
+        
+    }
     
 }
