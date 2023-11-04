@@ -19,10 +19,17 @@ header {
     position: sticky;
     top: 0px;
     
+    
     font-family: "Merriweather";
     color: #AAA;
     
     margin: 20px;
+    
+}
+
+header img {
+    
+    width: 10%;
     
 }
 
@@ -113,7 +120,9 @@ a:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     background-color: #AAA;
+    
         
     padding-top: 15px;
     padding-bottom: 15px;
@@ -166,6 +175,12 @@ footer {
     html {
         
         zoom: 150%;
+        
+    }
+    
+    header img {
+        
+        width: 35%;
         
     }
     
