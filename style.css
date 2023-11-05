@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Merriweather";
+    font-family: "Cinzel";
     src: url("Fonts/Cinzel-Regular.ttf"), format("truetype");
     
 }
@@ -20,7 +20,7 @@ header {
     top: 0px;
     
     
-    font-family: "Merriweather";
+    font-family: "Cinzel";
     color: #AAA;
     
     margin: 20px;
@@ -41,7 +41,7 @@ nav {
     position: sticky;
     top: 0px;
     
-    font-family: "Merriweather";
+    font-family: "Cinzel";
     color: #FFF;
     background-image: url("Images/shutterstock_2369797369.jpg");
     
@@ -76,7 +76,7 @@ main {
     flex-direction: row;
     justify-content: center;
     
-    font-family: "Merriweather";
+    font-family: "Cinzel";
     
 }
 
@@ -165,7 +165,7 @@ footer {
     
     text-align: center;
     margin-top: 50px;
-    font-family: "Merriweather";
+    font-family: "Cinzel";
     color: #AAA;
     
 }
