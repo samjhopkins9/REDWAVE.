@@ -5,22 +5,34 @@ let applink = "https://music.apple.com/us/artist/redwave/1704251598";
 let soundlink = "https://soundcloud.com/whoisredwave";
 
 let instalink = "http://instagram.com/whoisredwave";
+let threadslink = "https://www.threads.net/@whoisredwave";
 let twtrlink = "https://twitter.com/whoisredwave";
+
+let ttlink = "https://www.tiktok.com/@whoisredwave";
+let ytlink = "https://www.youtube.com/channel/UCdt1Bwh674LaxiD5-D2F98g";
 
 let immortal = new Release("Immortal", immortalsc, immortalspot, immortalappl, immortaldl)
 let motor = new Release("Motor", motorsc, motorspot, motorappl, motordl)
 let lightning = new Release("Lightning", lightningsc, lightningspot, lightningappl, lightningdl)
 
-document.getElementById("links").innerHTML += `<div class="link"><img src="Images/soundcloud-logo.png" width="5%"></img><a href=${soundlink} target="_BLANK">Soundcloud</a></div>`;
 document.querySelector("header").innerHTML += `<img src="${logo}" width="20%" height="10%"></img>`;
-document.getElementById("links").innerHTML += `<div class="link"><img src="Images/spotify-logo.png" width="7%"></img><a href=${spotlink} target="_BLANK">Spotify</a></div>`;
-document.getElementById("links").innerHTML += `<div class="link"><img src="Images/apple-music-logo.png" width="5%"></img><a href=${applink} target="_BLANK">Apple Music</a>`;
 
 
-document.getElementById("links").innerHTML += `<div class="link"><img src="Images/Logo-Instagram-noir-1.png" width="5%"></img><a href=${instalink} target="_BLANK">Instagram</a></div>`;
-document.getElementById("links").innerHTML += `<div class="link"><img src="Images/X-loho.png" width="5%"></img><a href=${twtrlink} target="_BLANK">Twitter / X</a></div>`;
+document.getElementById("links").innerHTML += `<div class="link"><a href=${soundlink} target="_BLANK"><img src="Images/soundcloud-logo.png" width="30px"></img>Soundcloud</a></div>`;
+document.getElementById("links").innerHTML += `<div class="link"><a href=${spotlink} target="_BLANK"><img src="Images/spotify-logo.png" width="30px"></img>Spotify</a></div>`;
+document.getElementById("links").innerHTML += `<div class="link"><a href=${applink} target="_BLANK"><img src="Images/apple-music-logo.png" width="30px"></img>Apple Music</a>`;
 
-document.querySelector("footer").innerHTML += `REDWAVE. 2023`;
+
+document.getElementById("links").innerHTML += `<div class="link"><a href=${instalink} target="_BLANK"><img src="Images/Logo-Instagram-noir-1.png" width="30px"></img>Instagram</a></div>`;
+
+
+document.getElementById("links").innerHTML += `<div class="link"><a href=${ttlink} target="_BLANK"><img src="Images/tiktok-logo.png" width="30px"></img>TikTok</a></div>`;
+document.getElementById("links").innerHTML += `<div class="link"><a href=${ytlink} target="_BLANK"><img src="Images/yt-logo.png" width="30px"></img>YouTube</a></div>`;
+
+document.getElementById("links").innerHTML += `<div class="link"><a href=${twtrlink} target="_BLANK"><img src="Images/x-logo.png" width="30px"></img>Twitter / X</a></div>`;
+document.getElementById("links").innerHTML += `<div class="link"><a href=${threadslink} target="_BLANK"><img src="Images/threads-logo.png" width="30px"></img>Threads</a></div>`;
+
+document.querySelector("footer").innerHTML += `REDWAVE. 2024`;
 
 function openReleases(){
     

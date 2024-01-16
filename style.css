@@ -82,13 +82,7 @@ main {
 
 a {
     
-    color: #A00;
-    background-color: #AAA;
-    
-    padding: 10px;
-    margin: 5px;
-    
-    border-radius: 10px;
+    color: #04A;
     
 }
 
@@ -98,10 +92,11 @@ a:visited {
     
 }
 
-a:hover {
+.songlink:hover {
     
     color: #A03;
-    background-color: #000;
+    background-color: #800;
+    /* box-shadow: 0 0 15px 10px rgba(0, 0, 255, 0.5); */
     
     cursor: pointer;
     transition: 0.3s;
@@ -117,22 +112,45 @@ a:hover {
 
 .link {
     
+    padding: 10px;
+    margin: 5px;
+    
+    border-radius: 10px;
+    color: #A00;
+    background-color: #AAA;
+    
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    background-color: #AAA;
-    
+    justify-content: left;
         
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 50px;
     padding-right: 50px;
-    margin-bottom: 15px;
-    
+    margin-bottom: 5px;
+        
     border-radius: 15px;
     font-size: 20px;
     
+}
+
+.link:hover {
+    
+    color: #A33;
+    background-color: #800;
+    /* box-shadow: 0 0 15px 10px rgba(0, 0, 255, 0.5); */
+    
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.link img {
+    
+    padding-right: 20px;
+    
+    position: relative;
+    top: 5px;
 }
 
 #releases {
