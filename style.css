@@ -6,7 +6,7 @@
 
 html {
     
-    background-color: #111;
+    background-color: #080808;
     display: flex;
     flex-direction: column;
     
@@ -29,7 +29,7 @@ header {
 
 header img {
     
-    width: 10%;
+    width: 20%;
     
 }
 
@@ -43,7 +43,7 @@ nav {
     
     font-family: "Cinzel";
     color: #FFF;
-    background-image: url("Images/shutterstock_2369797369.jpg");
+    /* background-image: url("Images/shutterstock_2369797369.jpg"); */
     
     margin-bottom: 20px;
     
@@ -85,6 +85,7 @@ a {
     color: #04A;
     
 }
+
 
 a:visited {
     
@@ -204,7 +205,7 @@ footer {
     
     header img {
         
-        width: 35%;
+        width: 60%;
         
     }
     

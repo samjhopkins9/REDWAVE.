@@ -1,4 +1,4 @@
-let logo = "Images/Logo 1.png";
+let logo = "Images/REDWAVE.logo.png";
 
 let spotlink = "https://open.spotify.com/artist/3DUGOEQlHtDibMS73uULP8?si=WNgl6pSyS5-OaHhZOzosgg";
 let applink = "https://music.apple.com/us/artist/redwave/1704251598";
