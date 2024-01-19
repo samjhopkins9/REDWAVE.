@@ -1,5 +1,7 @@
 let logo = "Images/REDWAVE.logo.png";
 
+let descwritelink = "https://www.badmouthrecs.com/post/redwave-a-sonic-fusion-of-gritty-rhythmic-and-complex-bass-music-in-descent-ep";
+
 let spotlink = "https://open.spotify.com/artist/3DUGOEQlHtDibMS73uULP8?si=WNgl6pSyS5-OaHhZOzosgg";
 let applink = "https://music.apple.com/us/artist/redwave/1704251598";
 let soundlink = "https://soundcloud.com/whoisredwave";
@@ -11,12 +13,14 @@ let twtrlink = "https://twitter.com/whoisredwave";
 let ttlink = "https://www.tiktok.com/@whoisredwave";
 let ytlink = "https://www.youtube.com/channel/UCdt1Bwh674LaxiD5-D2F98g";
 
+let descent = new Release("Descent EP", descentsc, descentspot, descentappl, descentdl)
 let immortal = new Release("Immortal", immortalsc, immortalspot, immortalappl, immortaldl)
 let motor = new Release("Motor", motorsc, motorspot, motorappl, motordl)
 let lightning = new Release("Lightning", lightningsc, lightningspot, lightningappl, lightningdl)
 
 document.querySelector("header").innerHTML += `<img src="${logo}" width="20%" height="10%"></img>`;
 
+document.getElementById("links").innerHTML += `<div class="link"><a href=${descwritelink} target="_BLANK">DESCENT EP WRITEUP</a></div>`
 
 document.getElementById("links").innerHTML += `<div class="link"><a href=${soundlink} target="_BLANK"><img src="Images/soundcloud-logo.png" width="30px"></img>Soundcloud</a></div>`;
 document.getElementById("links").innerHTML += `<div class="link"><a href=${spotlink} target="_BLANK"><img src="Images/spotify-logo.png" width="30px"></img>Spotify</a></div>`;

@@ -13,6 +13,11 @@ let immortalspot = `https://open.spotify.com/track/6EsLeP93n2lbLXAgyTQTrJ?si=539
 let immortalappl = `https://music.apple.com/us/album/immortal/1706802515?i=1706802516`;
 let immortaldl = `https://hypeddit.com/redwave/immortal`;
 
+let descentsc = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1758975567&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/whoisredwave" title="REDWAVE." target="_blank" style="color: #cccccc; text-decoration: none;">REDWAVE.</a> · <a href="https://soundcloud.com/whoisredwave/sets/descent-ep-1" title="Descent EP" target="_blank" style="color: #cccccc; text-decoration: none;">Descent EP</a></div>`
+let descentspot = `https://open.spotify.com/album/3V1EzIVtYlcnb86qIMmmtz?si=qDd2NSBWRIuuufnN0vfyzw`
+let descentappl = `https://music.apple.com/us/album/descent-ep/1725616492`
+let descentdl = `https://hypeddit.com/redwave/planetary`
+
 class Release {
     
     constructor(name, sc, spot, appl, dl){
