@@ -20,21 +20,21 @@ let lightning = new Release("Lightning", lightningsc, lightningspot, lightningap
 
 document.querySelector("header").innerHTML += `<img src="${logo}" width="20%" height="10%"></img>`;
 
-document.getElementById("links").innerHTML += `<div class="link"><a href=${descwritelink} target="_BLANK">DESCENT EP WRITEUP</a></div>`
+document.getElementById("links").innerHTML += `<a href=${descwritelink} target="_BLANK"><div class="link">DESCENT EP WRITEUP</div></a>`
 
-document.getElementById("links").innerHTML += `<div class="link"><a href=${soundlink} target="_BLANK"><img src="Images/soundcloud-logo.png" width="30px"></img>Soundcloud</a></div>`;
-document.getElementById("links").innerHTML += `<div class="link"><a href=${spotlink} target="_BLANK"><img src="Images/spotify-logo.png" width="30px"></img>Spotify</a></div>`;
-document.getElementById("links").innerHTML += `<div class="link"><a href=${applink} target="_BLANK"><img src="Images/apple-music-logo.png" width="30px"></img>Apple Music</a>`;
-
-
-document.getElementById("links").innerHTML += `<div class="link"><a href=${instalink} target="_BLANK"><img src="Images/Logo-Instagram-noir-1.png" width="30px"></img>Instagram</a></div>`;
+document.getElementById("links").innerHTML += `<a href=${soundlink} target="_BLANK"><div class="link"><img src="Images/soundcloud-logo.png" width="30px"></img>Soundcloud</div></a>`;
+document.getElementById("links").innerHTML += `<a href=${spotlink} target="_BLANK"><div class="link"><img src="Images/spotify-logo.png" width="30px"></img>Spotify</div></a>`;
+document.getElementById("links").innerHTML += `<a href=${applink} target="_BLANK"><div class="link"><img src="Images/apple-music-logo.png" width="30px"></img>Apple Music</div></a>`;
 
 
-document.getElementById("links").innerHTML += `<div class="link"><a href=${ttlink} target="_BLANK"><img src="Images/tiktok-logo.png" width="30px"></img>TikTok</a></div>`;
-document.getElementById("links").innerHTML += `<div class="link"><a href=${ytlink} target="_BLANK"><img src="Images/yt-logo.png" width="30px"></img>YouTube</a></div>`;
+document.getElementById("links").innerHTML += `<a href=${instalink} target="_BLANK"><div class="link"><img src="Images/Logo-Instagram-noir-1.png" width="30px"></img>Instagram</div></a>`;
 
-document.getElementById("links").innerHTML += `<div class="link"><a href=${twtrlink} target="_BLANK"><img src="Images/x-logo.png" width="30px"></img>Twitter / X</a></div>`;
-document.getElementById("links").innerHTML += `<div class="link"><a href=${threadslink} target="_BLANK"><img src="Images/threads-logo.png" width="30px"></img>Threads</a></div>`;
+
+document.getElementById("links").innerHTML += `<a href=${ttlink} target="_BLANK"><div class="link"><img src="Images/tiktok-logo.png" width="30px"></img>TikTok</div></a>`;
+document.getElementById("links").innerHTML += `<a href=${ytlink} target="_BLANK"><div class="link"><img src="Images/yt-logo.png" width="30px"></img>YouTube</div></a>`;
+
+document.getElementById("links").innerHTML += `<a href=${twtrlink} target="_BLANK"><div class="link"><img src="Images/x-logo.png" width="30px"></img>Twitter / X</div></a>`;
+document.getElementById("links").innerHTML += `<a href=${threadslink} target="_BLANK"><div class="link"><img src="Images/threads-logo.png" width="30px"></img>Threads</div></a>`;
 
 document.querySelector("footer").innerHTML += `REDWAVE. 2024`;
 
