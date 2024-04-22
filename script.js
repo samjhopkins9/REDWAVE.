@@ -19,12 +19,6 @@ document.getElementById("links").innerHTML += `<a href=${soundlink} target="_BLA
 document.getElementById("links").innerHTML += `<a href=${spotlink} target="_BLANK"><div class="link"><img src="Images/spotify-logo.png" width="30px"></img>Spotify</div></a>`;
 document.getElementById("links").innerHTML += `<a href=${applink} target="_BLANK"><div class="link"><img src="Images/apple-music-logo.png" width="30px"></img>Apple Music</div></a>`;
 
-let chaos = new Release("Chaos EP", chaossc, chaosspot, chaosappl, chaosdl)
-let descent = new Release("Descent EP", descentsc, descentspot, descentappl, descentdl)
-let immortal = new Release("Immortal", immortalsc, immortalspot, immortalappl, immortaldl)
-let motor = new Release("Motor", motorsc, motorspot, motorappl, motordl)
-let lightning = new Release("Lightning", lightningsc, lightningspot, lightningappl, lightningdl)
-
 document.getElementById("links").innerHTML += `<a href=${descwritelink} target="_BLANK"><div class="link">DESCENT EP WRITEUP</div></a>`
 
 document.getElementById("links").innerHTML += `<a href=${instalink} target="_BLANK"><div class="link"><img src="Images/Logo-Instagram-noir-1.png" width="30px"></img>Instagram</div></a>`;
@@ -37,6 +31,13 @@ document.getElementById("links").innerHTML += `<a href=${ytlink} target="_BLANK"
 
 
 document.querySelector("footer").innerHTML += `REDWAVE. 2024`;
+
+
+let chaos = new Release("Chaos EP", chaossc, chaosspot, chaosappl, chaosdl)
+let descent = new Release("Descent EP", descentsc, descentspot, descentappl, descentdl)
+let immortal = new Release("Immortal", immortalsc, immortalspot, immortalappl, immortaldl)
+let motor = new Release("Motor", motorsc, motorspot, motorappl, motordl)
+let lightning = new Release("Lightning", lightningsc, lightningspot, lightningappl, lightningdl)
 
 function openReleases(){
     
