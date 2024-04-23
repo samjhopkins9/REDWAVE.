@@ -20,7 +20,7 @@ let ytlink = "https://www.youtube.com/channel/UCdt1Bwh674LaxiD5-D2F98g";
 document.querySelector("header").innerHTML += `<img src="${logo}" width="20%" height="10%"></img>`;
 
 document.getElementById("links").innerHTML += `<a href=${soundlink} target="_BLANK"><div class="link"><img src="Images/soundcloud-logo.png" width="30px"></img>SOUNDCLOUD</div></a>`;
-document.getElementById("links").innerHTML += `<a href=${spotlink} target="_BLANK"><div class="link"><img src="Images/spotify-logo.png" width="30px"></img>SPOTIFY</div></a>`;
+document.getElementById("links").innerHTML += `<a href=${spotlink} target="_BLANK"><div class="link"><img src="Images/spotify-logo.png" width="30px" style=" filter: hue-rotate(-140deg) saturate(80%) brightness(90%);"></img>SPOTIFY</div></a>`;
 document.getElementById("links").innerHTML += `<a href=${applink} target="_BLANK"><div class="link"><img src="Images/apple-music-logo.png" width="30px"></img>APPLE MUSIC</div></a>`;
 
 document.getElementById("links").innerHTML += `<a href=${instalink} target="_BLANK"><div class="link"><img src="Images/Logo-Instagram-noir-1.png" width="30px"></img>INSTAGRAM</div></a>`;
