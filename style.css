@@ -93,23 +93,6 @@ a {
     
 }
 
-.songlink {
-    
-    font-size: 17px;
-    
-}
-
-.songlink:hover {
-    
-    color: #A03;
-    background-color: #800;
-    /* box-shadow: 0 0 15px 10px rgba(0, 0, 255, 0.5); */
-    
-    cursor: pointer;
-    transition: 0.3s;
-    
-}
-
 #links {
     
     display: flex;
@@ -179,10 +162,23 @@ a {
         
 }
 
-#releases a {
+
+.songlink {
     
+    font-size: 17px;
     padding: 10px;
     margin: 10px;
+    
+}
+
+.songlink:hover {
+    
+    color: #A03;
+    background-color: #800;
+    /* box-shadow: 0 0 15px 10px rgba(0, 0, 255, 0.5); */
+    
+    cursor: pointer;
+    transition: 0.3s;
     
 }
 

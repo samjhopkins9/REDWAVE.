@@ -58,8 +58,6 @@ class Release {
             rd.innerHTML += `<a href=${dl} target="_BLANK" class="songlink">FREE DL</a>`;
         }
         
-        
-        
         document.getElementById("releases").appendChild(rd);
         
     }
