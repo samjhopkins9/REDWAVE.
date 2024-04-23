@@ -3,6 +3,11 @@
     src: url("Fonts/Cinzel-Regular.ttf"), format("truetype");
     
 }
+@font-face {
+    font-family: "Sometype";
+    src: url("Fonts/SomeTypeMono-Regular.ttf"), format("truetype");
+    
+}
 
 html {
     
@@ -15,15 +20,13 @@ html {
 
 header {
     
+    /* font-family: "Cinzel";
+    color: #AAA; */
+    background-image: url("Images/REDWAVE.background.square.full-bspline.jpg");
+    
     text-align: center;
     position: sticky;
     top: 0px;
-    
-    
-    font-family: "Cinzel";
-    color: #AAA;
-    
-    margin: 20px;
     
 }
 
@@ -31,21 +34,25 @@ header img {
     
     width: 20%;
     
+    z-index: 1;
+    
 }
 
 nav {
     
+    font-family: "Cinzel";
+    color: #FFF;
+    /* background-image: url("Images/REDWAVE.background.square.full-bspline.jpg"); */
+    /* background-image: url("Images/shutterstock_2369797369.jpg"); */
+    
+    position: sticky;
+    top: 0px;
+    margin-bottom: 10px;
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
-    position: sticky;
-    top: 0px;
     
-    font-family: "Cinzel";
-    color: #FFF;
-    /* background-image: url("Images/shutterstock_2369797369.jpg"); */
-    
-    margin-bottom: 20px;
     
 }
 
@@ -76,13 +83,19 @@ main {
     flex-direction: row;
     justify-content: center;
     
-    font-family: "Cinzel";
+    font-family: "Sometype";
     
 }
 
 a {
     
     color: #A00;
+    
+}
+
+.songlink {
+    
+    font-size: 17px;
     
 }
 
@@ -142,6 +155,7 @@ a {
 .link img {
     
     padding-right: 20px;
+    z-index: 0;
     
     position: relative;
 }
@@ -192,6 +206,20 @@ footer {
     #releases a {
         
         font-size: 7px;
+        
+    }
+    
+    #releases div {
+        
+        display: flex;
+        flex-flow: column;
+        
+    }
+    
+    #releases div iframe {
+        
+        width: 100%;
+        height: 200px;
         
     }
     
