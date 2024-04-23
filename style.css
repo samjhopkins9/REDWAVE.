@@ -16,7 +16,8 @@
 
 html {
     
-    background-image: url("Images/REDWAVE.background.square.full-bspline.jpg");
+    /* background-image: url("Images/REDWAVE.background.square.full-bspline.jpg"); */
+    background-color: #000;
     background: linear-gradient(to bottom, #050907, #200);
     display: flex;
     flex-direction: column;
