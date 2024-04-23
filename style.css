@@ -125,6 +125,8 @@ a:hover {
     
     
     color: #efe;
+    border: 1px groove #fff9;
+    
     background: linear-gradient(to bottom, #555855, #645555);
 
     display: flex;
@@ -213,6 +215,7 @@ a:hover {
 .songlink {
 
     background: linear-gradient(to bottom, #a00, #e20);
+    border: 1px groove #000a;
         
     font-size: 17px;
     padding: 10px;
@@ -224,6 +227,7 @@ a:hover {
     
     color: #A03;
     background: linear-gradient(to bottom, #a00, #f03);
+    border: 1px groove #000;
     /* box-shadow: 0 0 15px 10px rgba(0, 0, 255, 0.5); */
     
     cursor: pointer;
