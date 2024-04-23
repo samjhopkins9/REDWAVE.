@@ -19,17 +19,17 @@ let ytlink = "https://www.youtube.com/channel/UCdt1Bwh674LaxiD5-D2F98g";
 
 document.querySelector("header").innerHTML += `<img src="${logo}" width="20%" height="10%"></img>`;
 
-document.getElementById("links").innerHTML += `<a href=${soundlink} target="_BLANK"><div class="link"><img src="Images/soundcloud-logo.png" width="30px"></img>Soundcloud</div></a>`;
-document.getElementById("links").innerHTML += `<a href=${spotlink} target="_BLANK"><div class="link"><img src="Images/spotify-logo.png" width="30px"></img>Spotify</div></a>`;
-document.getElementById("links").innerHTML += `<a href=${applink} target="_BLANK"><div class="link"><img src="Images/apple-music-logo.png" width="30px"></img>Apple Music</div></a>`;
+document.getElementById("links").innerHTML += `<a href=${soundlink} target="_BLANK"><div class="link"><img src="Images/soundcloud-logo.png" width="30px"></img>SOUNDCLOUD</div></a>`;
+document.getElementById("links").innerHTML += `<a href=${spotlink} target="_BLANK"><div class="link"><img src="Images/spotify-logo.png" width="30px"></img>SPOTIFY</div></a>`;
+document.getElementById("links").innerHTML += `<a href=${applink} target="_BLANK"><div class="link"><img src="Images/apple-music-logo.png" width="30px"></img>APPLE MUSIC</div></a>`;
 
-document.getElementById("links").innerHTML += `<a href=${instalink} target="_BLANK"><div class="link"><img src="Images/Logo-Instagram-noir-1.png" width="30px"></img>Instagram</div></a>`;
-document.getElementById("links").innerHTML += `<a href=${ttlink} target="_BLANK"><div class="link"><img src="Images/tiktok-logo.png" width="30px"></img>TikTok</div></a>`;
+document.getElementById("links").innerHTML += `<a href=${instalink} target="_BLANK"><div class="link"><img src="Images/Logo-Instagram-noir-1.png" width="30px"></img>INSTAGRAM</div></a>`;
+document.getElementById("links").innerHTML += `<a href=${ttlink} target="_BLANK"><div class="link"><img src="Images/tiktok-logo.png" width="30px"></img>TIKTOK</div></a>`;
 
 document.getElementById("links").innerHTML += `<a href=${twtrlink} target="_BLANK"><div class="link"><img src="Images/x-logo.png" width="30px"></img>Twitter / X</div></a>`;
-document.getElementById("links").innerHTML += `<a href=${threadslink} target="_BLANK"><div class="link"><img src="Images/threads-logo.png" width="30px"></img>Threads</div></a>`;
+document.getElementById("links").innerHTML += `<a href=${threadslink} target="_BLANK"><div class="link"><img src="Images/threads-logo.png" width="30px"></img>THREADS</div></a>`;
 
-document.getElementById("links").innerHTML += `<a href=${ytlink} target="_BLANK"><div class="link"><img src="Images/yt-logo.png" width="30px"></img>YouTube</div></a>`;
+document.getElementById("links").innerHTML += `<a href=${ytlink} target="_BLANK"><div class="link"><img src="Images/yt-logo.png" width="30px"></img>YOUTUBE</div></a>`;
 
 
 document.querySelector("footer").innerHTML += `REDWAVE. 2024`;

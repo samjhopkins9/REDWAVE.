@@ -8,11 +8,16 @@
     src: url("Fonts/SomeTypeMono-Regular.ttf"), format("truetype");
     
 }
+@font-face {
+    font-family: "Cormorant";
+    src: url("Fonts/Cormorant-VariableFont_wght.ttf"), format("truetype");
+    
+}
 
 html {
     
     background-image: url("Images/REDWAVE.background.square.full-bspline.jpg");
-    background: linear-gradient(to bottom, #000, #200);
+    background: linear-gradient(to bottom, #050907, #200);
     display: flex;
     flex-direction: column;
     
@@ -48,7 +53,6 @@ nav {
     
     position: sticky;
     top: 0px;
-    margin-bottom: 10px;
     
     display: flex;
     flex-direction: row;
@@ -59,10 +63,11 @@ nav {
 
 nav h2 {
     
-    background-color: #000a;
+    background: linear-gradient(to bottom, #5007, #b107);
     
-    padding: 10px;
-    margin: 15px;
+    padding: 5px;
+    border: 3px groove #000a;
+    margin: 10px;
     
     border-radius: 2px;
     
@@ -70,9 +75,9 @@ nav h2 {
 
 nav h2:hover {
     
-    color: #A00;
-    background-color: #000;
-    
+    color: #000;
+    background: linear-gradient(to bottom, #b10, #900);
+
     cursor: pointer;
     transition: 0.3s;
     
@@ -80,17 +85,30 @@ nav h2:hover {
 
 main {
     
+    margin-top: 10px;
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
     
-    font-family: "Sometype";
+    font-family: "Cormorant";
     
 }
 
 a {
     
-    color: #A00;
+    color: #eee;
+    
+}
+
+a:visited {
+    
+    color: #eee;
+}
+
+a:hover {
+    
+    color: #000;
     
 }
 
@@ -107,9 +125,9 @@ a {
     margin: 5px;
     
     border-radius: 10px;
-    color: #A00;
-    background-color: #AAA;
-    
+    color: #eee;
+    background: linear-gradient(to bottom, #999, #666);
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -119,6 +137,7 @@ a {
     padding-bottom: 15px;
     padding-left: 50px;
     padding-right: 50px;
+    
     margin-bottom: 5px;
         
     border-radius: 15px;
@@ -128,8 +147,8 @@ a {
 
 .link:hover {
     
-    color: #A33;
-    background-color: #800;
+    color: #000;
+    background: linear-gradient(to bottom, #b10, #900);
     /* box-shadow: 0 0 15px 10px rgba(0, 0, 255, 0.5); */
     
     cursor: pointer;
@@ -142,6 +161,7 @@ a {
     z-index: 0;
     
     position: relative;
+    
 }
 
 #releases {
@@ -150,22 +170,47 @@ a {
     flex-direction: column;
     justify-content: center;
     
-    color: #A00;
     
 }
 
 #releases div {
     
-    margin: 20px;
     align-items: center;
     justify-content: center;
     text-align: center;
         
 }
 
+#releases div iframe {
+    
+    margin-bottom: 20px;
+    
+}
+
+#releases h2 {
+    
+    color: #d03;
+    background: linear-gradient(to bottom, #000, #903);
+
+    font-family: "Cinzel";
+    padding: 4px;
+    border: 1px groove #f306;
+    border-radius: 4px;
+    margin: 50px;
+    
+}
+
+#releases a {
+    
+    color: #000;
+    
+}
+
 
 .songlink {
-    
+
+    background: linear-gradient(to bottom, #a00, #e20);
+        
     font-size: 17px;
     padding: 10px;
     margin: 10px;
@@ -175,7 +220,7 @@ a {
 .songlink:hover {
     
     color: #A03;
-    background-color: #800;
+    background: linear-gradient(to bottom, #a00, #f03);
     /* box-shadow: 0 0 15px 10px rgba(0, 0, 255, 0.5); */
     
     cursor: pointer;
@@ -194,15 +239,22 @@ footer {
 
 @media only screen and (max-width: 1000px) {
     
-    html {
+    body {
         
         zoom: 210%;
         
     }
     
+    #releases {
+        
+        zoom: 150%;
+        
+        
+    }
+    
     #releases a {
         
-        font-size: 7px;
+        font-size: 17px;
         
     }
     
@@ -215,8 +267,8 @@ footer {
     
     #releases div iframe {
         
-        width: 100%;
-        height: 200px;
+        width: 75%;
+        height: auto;
         
     }
     
