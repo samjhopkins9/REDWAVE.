@@ -14,43 +14,34 @@
     
 }
 
+html {
+    
+    /* background-image: url("Images/REDWAVE.background.square.full-bspline.jpg"); */
+    background-color: #000;
+    background: linear-gradient(to bottom, #050907, #200);
+    display: flex;
+    flex-direction: column;
+    
+}
+
 
 header {
     
     /* font-family: "Cinzel";
     color: #AAA; */
-    /* background-image: url("Images/ChaosHeader.png");
-    
-    background-repeat: no-repeat;
-    
-    background-size: 100%;
-    background-position: 80% 35%; */
+    background-image: url("Images/REDWAVE.background.square.full-bspline.jpg");
     
     text-align: center;
     position: sticky;
     top: 0px;
     
-    z-index: 1000;
-    
-    
 }
 
 header img {
     
+    width: 20%;
     
-    
-}
-
-body, #m1 {
-    
-    
-    /* background-image: url("Images/REDWAVE.background.square.full-bspline.jpg"); */
-
-    background-color: #000;
-    background: linear-gradient(to bottom, #ff8265, #faa);
-    
-    display: flex;
-    flex-direction: column;
+    z-index: 1;
     
 }
 
@@ -68,20 +59,18 @@ nav {
     flex-direction: row;
     justify-content: center;
     
-    z-index: 2000;
-    
     
 }
 
 nav h2 {
     
-    border-radius: 2px;
     background: linear-gradient(to bottom, #5007, #b107);
     
-    border: 3px groove #000a;
-    
     padding: 5px;
+    border: 3px groove #000a;
     margin: 10px;
+    
+    border-radius: 2px;
     
 }
 
@@ -97,7 +86,7 @@ nav h2:hover {
 
 main {
     
-    /* margin-top: 10px; */
+    margin-top: 10px;
     
     display: flex;
     flex-direction: row;
@@ -134,24 +123,27 @@ a:hover {
 
 .link {
     
-    font-size: 20px;
     
     color: #efe;
     border: 1px groove #fff9;
-    border-radius: 15px;
-    background: linear-gradient(to bottom, #555855, #645555);
     
+    background: linear-gradient(to bottom, #555855, #645555);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+            
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 50px;
     padding-right: 50px;
     margin: 5px;
-
     
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: left;
+    margin-bottom: 5px;
+        
+    border-radius: 15px;
+    font-size: 20px;
     
 }
 
@@ -168,6 +160,8 @@ a:hover {
 .link img {
     
     padding-right: 20px;
+    z-index: 0;
+    
     position: relative;
     
 }
@@ -183,12 +177,12 @@ a:hover {
 
 #releases div {
     
-    padding-bottom: 50px;
-    border-bottom: 2px solid #800;
-    
-    text-align: center;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    
+    padding-bottom: 50px;
+    border-bottom: 2px solid #800;
         
 }
 
@@ -284,7 +278,6 @@ footer {
         height: auto;
         
     }
-    
     
     header img {
         
