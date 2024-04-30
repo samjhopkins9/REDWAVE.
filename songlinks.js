@@ -1,3 +1,8 @@
+let spcmix = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1811312343&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`;
+let spcmixspot = ""
+let spcmixappl = ""
+let spcmixdl = ""
+
 let chaossc = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1805557528&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`
 let chaosspot = `https://open.spotify.com/album/0pMh6T8yvCpnyV7OZEUX3n`
 let chaosappl = `https://music.apple.com/us/album/chaos-ep/1738753652`
@@ -51,7 +56,7 @@ class Release {
             rd.innerHTML += spot;
             rd.innerHTML += appl;
             
-        } else {
+        } else if (this.spot != ""){
             rd.innerHTML += `<br><a href=${spot} target="_BLANK" class="songlink">SPOTIFY</a>  <a href=${appl} target="_BLANK" class="songlink">APPLE MUSIC</a>`;
         }
         if (dl != ''){
