@@ -1,3 +1,4 @@
+let disrespect = new Release("DISRESPECT (w/ M?STIC)", disrespectsc, disrespectspot, disrespectappl, disrespectdl)
 let revovery = new Release("Recovery EP", recoverysc, recoveryspot, recoveryappl, recoverydl)
 let SPCmix = new Release("STUNNA POSSE CULT MIX", spcmix, spcmixspot, spcmixappl, spcmixdl)
 let chaos = new Release("Chaos EP", chaossc, chaosspot, chaosappl, chaosdl)

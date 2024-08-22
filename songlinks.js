@@ -1,8 +1,12 @@
+let disrespectsc = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1898225526&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`
+let disrespectspot = `https://open.spotify.com/album/3wXmGEMx3xVXxGIiv0eBsS?si=Epp6sDfJS4eEeFaVj4i44w`
+let disrespectappl = `https://music.apple.com/us/album/disrespect-feat-redwave/1761671866?i=1761671867`
+let disrespectdl = `https://hypeddit.com/mstic/msticredwavedisrespect`
+
 let recoverysc = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1853159418&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`
 let recoveryspot = `https://open.spotify.com/album/54ZHml5FgjEcVQ9VrUjAEg?si=PEVBWfSpTjqYK_jqA0DW3w`
 let recoveryappl = `https://music.apple.com/us/album/recovery-ep/1752595557`
 let recoverydl = ``
-
 
 let spcmix = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1811312343&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`;
 let spcmixspot = ""
