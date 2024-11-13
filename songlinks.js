@@ -1,3 +1,8 @@
+let ascensionsc = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1888811099&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`
+let ascensionspot = `https://open.spotify.com/album/1hScPsUmeytWdW1yrj2CEp?si=-3na-7V0QqW-qji3s27Hcg`
+let ascensionappl = `https://music.apple.com/us/album/ascension-ep/1773013722`
+let ascensiondl = `https://hypeddit.com/redwave/gravel`
+
 let disrespectsc = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1898225526&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`
 let disrespectspot = `https://open.spotify.com/album/3wXmGEMx3xVXxGIiv0eBsS?si=Epp6sDfJS4eEeFaVj4i44w`
 let disrespectappl = `https://music.apple.com/us/album/disrespect-feat-redwave/1761671866?i=1761671867`
