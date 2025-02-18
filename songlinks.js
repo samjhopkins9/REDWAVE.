@@ -1,3 +1,6 @@
+let myeyessc = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2037280596&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`
+let myeyesdl = `https://hypeddit.com/redwave/myeyes`
+
 let ascensionsc = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1888811099&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`
 let ascensionspot = `https://open.spotify.com/album/1hScPsUmeytWdW1yrj2CEp?si=-3na-7V0QqW-qji3s27Hcg`
 let ascensionappl = `https://music.apple.com/us/album/ascension-ep/1773013722`

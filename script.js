@@ -1,3 +1,4 @@
+let myeyes = new Release("Travis Scott - My Eyes (REDWAVE. Remix)", myeyessc, "", "", myeyesdl)
 let ascension = new Release("Ascension EP", ascensionsc, ascensionspot, ascensionappl, ascensiondl)
 let disrespect = new Release("DISRESPECT (w/ M?STIC)", disrespectsc, disrespectspot, disrespectappl, disrespectdl)
 let revovery = new Release("Recovery EP", recoverysc, recoveryspot, recoveryappl, recoverydl)
