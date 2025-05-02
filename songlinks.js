@@ -1,9 +1,9 @@
-let mix01sc = `https://soundcloud.com/whoisredwave/cyberpunk-dystopia-01`
+let mix01sc = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2086321614&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`
 let mix01dl = `https://hypeddit.com/redwave/cyberpunkdystopia01`
 
-let faxsc = `https://soundcloud.com/whoisredwave/fax-machine-1`
+let faxsc = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2085177957&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`
 let faxspot = `https://open.spotify.com/album/4hBGZlgqJHcgfv5oSVgcQA?si=kSSEOHbpQ1eSWALrc4_7gA`
-let faxappl `https://music.apple.com/us/album/fax-machine-single/1809871388`
+let faxappl = `https://music.apple.com/us/album/fax-machine-single/1809871388`;
 let faxdl = `https://hypeddit.com/redwave/faxmachine`
 
 let myeyessc = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2037280596&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`

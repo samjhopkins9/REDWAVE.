@@ -1,15 +1,15 @@
-let mix01 = new Release("Cybperpunk Dystopia 01")
-let faxmachine = new Release("Fax Machine", )
-let myeyes = new Release("Travis Scott - My Eyes (REDWAVE. Remix)", myeyessc, "", "", myeyesdl)
-let ascension = new Release("Ascension EP", ascensionsc, ascensionspot, ascensionappl, ascensiondl)
-let disrespect = new Release("DISRESPECT (w/ M?STIC)", disrespectsc, disrespectspot, disrespectappl, disrespectdl)
-let revovery = new Release("Recovery EP", recoverysc, recoveryspot, recoveryappl, recoverydl)
-let SPCmix = new Release("STUNNA POSSE CULT MIX", spcmix, spcmixspot, spcmixappl, spcmixdl)
-let chaos = new Release("Chaos EP", chaossc, chaosspot, chaosappl, chaosdl)
-let descent = new Release("Descent EP", descentsc, descentspot, descentappl, descentdl, descentwriteup)
-let immortal = new Release("Immortal", immortalsc, immortalspot, immortalappl, immortaldl)
-let motor = new Release("Motor", motorsc, motorspot, motorappl, motordl)
-let lightning = new Release("Lightning", lightningsc, lightningspot, lightningappl, lightningdl)
+let mix01 = new Release("Cybperpunk Dystopia 01", mix01sc, "", "", mix01dl);
+let faxmachine = new Release("Fax Machine", faxsc, faxspot, faxappl, faxdl);
+let myeyes = new Release("Travis Scott - My Eyes (REDWAVE. Remix)", myeyessc, "", "", myeyesdl);
+let ascension = new Release("Ascension EP", ascensionsc, ascensionspot, ascensionappl, ascensiondl);
+let disrespect = new Release("DISRESPECT (w/ M?STIC)", disrespectsc, disrespectspot, disrespectappl, disrespectdl);
+let revovery = new Release("Recovery EP", recoverysc, recoveryspot, recoveryappl, recoverydl);
+let SPCmix = new Release("STUNNA POSSE CULT MIX", spcmix, spcmixspot, spcmixappl, spcmixdl);
+let chaos = new Release("Chaos EP", chaossc, chaosspot, chaosappl, chaosdl);
+let descent = new Release("Descent EP", descentsc, descentspot, descentappl, descentdl, descentwriteup);
+let immortal = new Release("Immortal", immortalsc, immortalspot, immortalappl, immortaldl);
+let motor = new Release("Motor", motorsc, motorspot, motorappl, motordl);
+let lightning = new Release("Lightning", lightningsc, lightningspot, lightningappl, lightningdl);
 
 let logo = "Images/REDWAVE.logo.png"; // main header (logo)
 // let logo = "Images/ChaosHeader.png"; // chaos EP header
