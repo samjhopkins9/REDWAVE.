@@ -1,3 +1,4 @@
+let mix02 = new Release("Cyberpunk Dystopia 02", mix02sc, "", "", mix02dl);
 let mix01 = new Release("Cybperpunk Dystopia 01", mix01sc, "", "", mix01dl);
 let faxmachine = new Release("Fax Machine", faxsc, faxspot, faxappl, faxdl);
 let myeyes = new Release("Travis Scott - My Eyes (REDWAVE. Remix)", myeyessc, "", "", myeyesdl);
