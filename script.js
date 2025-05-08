@@ -25,6 +25,7 @@ let twtrlink = "https://twitter.com/whoisredwave";
 
 let ttlink = "https://www.tiktok.com/@whoisredwave";
 let ytlink = "https://www.youtube.com/channel/UCdt1Bwh674LaxiD5-D2F98g";
+let audiuslink = "https://audius.co/whoisredwave";
 
 document.querySelector("header").innerHTML += `<img src="${logo}" width="20%" height="10%" style="opacity: 100%;"></img>`; // logo
 // document.querySelector("header").innerHTML += `<img src="${logo}" width="100%" height="100%" style="opacity: 100%; background-repeat: repeat;"></img>`; // chaos
@@ -41,6 +42,7 @@ document.getElementById("links").innerHTML += `<a href=${threadslink} target="_B
 
 document.getElementById("links").innerHTML += `<a href=${ytlink} target="_BLANK"><div class="link"><img src="Images/yt-logo.png" width="30px"></img>YOUTUBE</div></a>`;
 
+document.getElementById("links").innerHTML += `<a href=${audiuslink} target="_BLANK"><div class="link"><img src="Images/audiuslogo.webp" width="30px ">AUDIUS</div></a>`
 
 document.querySelector("footer").innerHTML += `REDWAVE. 2024`;
 
