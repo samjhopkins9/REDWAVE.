@@ -12,7 +12,7 @@ let immortal = new Release("Immortal", immortalsc, immortalspot, immortalappl, i
 let motor = new Release("Motor", motorsc, motorspot, motorappl, motordl);
 let lightning = new Release("Lightning", lightningsc, lightningspot, lightningappl, lightningdl);
 
-let logo = "Images/REDWAVE.logo.png"; // main header (logo)
+let logo = "Images/Logo-Transparent_FINAL.png"; // main header (logo)
 // let logo = "Images/ChaosHeader.png"; // chaos EP header
 
 let spotlink = "https://open.spotify.com/artist/3DUGOEQlHtDibMS73uULP8?si=WNgl6pSyS5-OaHhZOzosgg";
@@ -44,7 +44,7 @@ document.getElementById("links").innerHTML += `<a href=${ytlink} target="_BLANK"
 
 document.getElementById("links").innerHTML += `<a href=${audiuslink} target="_BLANK"><div class="link"><img src="Images/audiuslogo.webp" width="30px ">AUDIUS</div></a>`
 
-document.querySelector("footer").innerHTML += `REDWAVE. 2024`;
+document.querySelector("footer").innerHTML += `REDWAVE. 2025`;
 
 function openReleases(){
     

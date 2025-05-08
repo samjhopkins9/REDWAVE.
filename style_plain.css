@@ -19,6 +19,8 @@ html {
     /* background-image: url("Images/REDWAVE.background.square.full-bspline.jpg"); */
     background-color: #000;
     background: linear-gradient(to bottom, #050907, #200);
+    background-image: url("Images/Ruins and Rifles in Red Skies.png");
+    
     display: flex;
     flex-direction: column;
     
@@ -29,11 +31,13 @@ header {
     
     /* font-family: "Cinzel";
     color: #AAA; */
-    background-image: url("Images/REDWAVE.background.square.full-bspline.jpg");
+    background-image: url("Images/28d44120-c071-409c-8baa-1010c12be694.png");
     
     text-align: center;
     position: sticky;
     top: 0px;
+    
+    z-index: 1;
     
 }
 
