@@ -1,3 +1,8 @@
+let gunssc = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2124608415&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`
+let gunsspot = ``
+let gunsappl = ``
+let gunsdl = `https://hypeddit.com/redwave/guns-1`
+
 let hohsc = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2112757236&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`
 let hohspot = `https://open.spotify.com/album/6jC4nX8wJgT7Lh1kY7nRmJ`
 let hohappl = `https://music.apple.com/us/album/hoh-single/1820042048`
