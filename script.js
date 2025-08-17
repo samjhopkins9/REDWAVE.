@@ -1,3 +1,4 @@
+let wanderer = new Release("THE WANDERER", wanderersc, wandererspot, wandererappl, wandererdl);
 let guns = new Release("GUNS", gunssc, gunsspot, gunsappl, gunsdl);
 let hoh = new Release("HOH!", hohsc, hohspot, hohappl, hohdl);
 let mix02 = new Release("Cyberpunk Dystopia 02", mix02sc, "", "", mix02dl);

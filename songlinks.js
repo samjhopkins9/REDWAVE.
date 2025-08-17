@@ -1,6 +1,11 @@
+let wanderersc = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2139936159&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`
+let wandererspot = `https://open.spotify.com/album/0KYSF33kCRw2OeQVPTHLFl?si=B8Wt4J5JQYWegXpOsmBwvQ`
+let wandererappl = `https://music.apple.com/us/album/the-wanderer-single/1830519381`
+let wandererdl = `https://hypeddit.com/redwave/thewanderer`
+
 let gunssc = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2124608415&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`
-let gunsspot = ``
-let gunsappl = ``
+let gunsspot = `https://open.spotify.com/album/0KYSF33kCRw2OeQVPTHLFl?si=B8Wt4J5JQYWegXpOsmBwvQ`
+let gunsappl = `https://music.apple.com/us/album/the-wanderer-single/1830519381`
 let gunsdl = `https://hypeddit.com/redwave/guns-1`
 
 let hohsc = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2112757236&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`
