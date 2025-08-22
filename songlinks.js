@@ -1,3 +1,8 @@
+let ughsc = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2157646797&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`
+let ughspot = `https://open.spotify.com/album/3jI0wcr7jCicIgO5odWvPs?si=xAmQPaPBQwyoIIbGi7gwiw`
+let ughappl = `https://music.apple.com/us/album/ugh-single/1830583610`
+let ughdl = `https://hypeddit.com/redwave/ugh-1`
+
 let wanderersc = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2139936159&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`
 let wandererspot = `https://open.spotify.com/album/0KYSF33kCRw2OeQVPTHLFl?si=B8Wt4J5JQYWegXpOsmBwvQ`
 let wandererappl = `https://music.apple.com/us/album/the-wanderer-single/1830519381`

@@ -1,3 +1,4 @@
+let ugh = new Release("UGH", ughsc, ughspot, ughappl, ughdl);
 let wanderer = new Release("THE WANDERER", wanderersc, wandererspot, wandererappl, wandererdl);
 let guns = new Release("GUNS", gunssc, gunsspot, gunsappl, gunsdl);
 let hoh = new Release("HOH!", hohsc, hohspot, hohappl, hohdl);
