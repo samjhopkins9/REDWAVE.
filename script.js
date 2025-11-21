@@ -54,6 +54,7 @@ document.querySelector("footer").innerHTML += `REDWAVE. 2025`;
 function openReleases(){
     
     document.getElementById("links").style.display = "none";
+    document.getElementById("plugins").style.display = "none";
     document.getElementById("releases").style.display = "flex";
     document.getElementById("songbutton").removeEventListener("click", openReleases);
     document.getElementById("homebutton").addEventListener("click", openHome);
@@ -63,6 +64,17 @@ function openReleases(){
 function openHome(){
     
     document.getElementById("links").style.display = "flex";
+    document.getElementById("plugins").style.display = "none";
+    document.getElementById("releases").style.display = "none";
+    document.getElementById("homebutton").removeEventListener("click", openHome);
+    document.getElementById("songbutton").addEventListener("click", openReleases);
+    
+}
+
+function openPlugins(){
+    
+    document.getElementById("links").style.display = "none";
+    document.getElementById("plugins").style.display = "flex";
     document.getElementById("releases").style.display = "none";
     document.getElementById("homebutton").removeEventListener("click", openHome);
     document.getElementById("songbutton").addEventListener("click", openReleases);
