@@ -1,3 +1,6 @@
+let fksc = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2230686848&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`
+let fkdl = `https://hypeddit.com/redwave/aaprockyfashionkillaredwaveflip`
+
 let ughsc = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2157646797&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`
 let ughspot = `https://open.spotify.com/album/3jI0wcr7jCicIgO5odWvPs?si=xAmQPaPBQwyoIIbGi7gwiw`
 let ughappl = `https://music.apple.com/us/album/ugh-single/1830583610`

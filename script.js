@@ -1,3 +1,4 @@
+let fk = new Release("A$AP ROCKY - FASHION KILLA (REDWAVE. FLIP)", fksc, "", "", fkdl);
 let ugh = new Release("UGH", ughsc, ughspot, ughappl, ughdl);
 let wanderer = new Release("THE WANDERER", wanderersc, wandererspot, wandererappl, wandererdl);
 let guns = new Release("GUNS", gunssc, gunsspot, gunsappl, gunsdl);
@@ -5,7 +6,7 @@ let hoh = new Release("HOH!", hohsc, hohspot, hohappl, hohdl);
 let mix02 = new Release("Cyberpunk Dystopia 02", mix02sc, "", "", mix02dl);
 let mix01 = new Release("Cybperpunk Dystopia 01", mix01sc, "", "", mix01dl);
 let faxmachine = new Release("Fax Machine", faxsc, faxspot, faxappl, faxdl);
-let myeyes = new Release("Travis Scott - My Eyes (REDWAVE. Remix)", myeyessc, "", "", myeyesdl);
+let myeyes = new Release("Travis Scott - My Eyes (REDWAVE. FLIP)", myeyessc, "", "", myeyesdl);
 let ascension = new Release("Ascension EP", ascensionsc, ascensionspot, ascensionappl, ascensiondl);
 let disrespect = new Release("DISRESPECT (w/ M?STIC)", disrespectsc, disrespectspot, disrespectappl, disrespectdl);
 let revovery = new Release("Recovery EP", recoverysc, recoveryspot, recoveryappl, recoverydl);
