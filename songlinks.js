@@ -1,3 +1,8 @@
+let ressc = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/soundcloud%253Aplaylists%253A2237644724&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`
+let resspot = `https://open.spotify.com/album/4hs29Q2kjP6nvQxh4tc0Dg`
+let resappl = `https://music.apple.com/us/album/resurrection-ep-single/6766612424`
+let resdl = `https://hypeddit.com/redwave/cantstop`
+
 let fksc = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2230686848&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`
 let fkdl = `https://hypeddit.com/redwave/aaprockyfashionkillaredwaveflip`
 

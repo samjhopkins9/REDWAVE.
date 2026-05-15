@@ -1,3 +1,4 @@
+let resurrection = new Release("RESURRECTION EP", ressc, resspot, resappl, resdl);
 let fk = new Release("A$AP ROCKY - FASHION KILLA (REDWAVE. FLIP)", fksc, "", "", fkdl);
 let ugh = new Release("UGH", ughsc, ughspot, ughappl, ughdl);
 let wanderer = new Release("THE WANDERER", wanderersc, wandererspot, wandererappl, wandererdl);
