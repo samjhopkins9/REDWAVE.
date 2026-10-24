@@ -18,7 +18,7 @@ let immortal = new Release("Immortal", immortalsc, immortalspot, immortalappl, i
 let motor = new Release("Motor", motorsc, motorspot, motorappl, motordl);
 let lightning = new Release("Lightning", lightningsc, lightningspot, lightningappl, lightningdl);
 
-let logo = "Images/Logo-Transparent_FINAL.png"; // main header (logo)
+let logo = "Images/LOGO2-TRANSPARENT_FULL_LARGE.png"; // main header (logo)
 // let logo = "Images/ChaosHeader.png"; // chaos EP header
 
 let spotlink = "https://open.spotify.com/artist/3DUGOEQlHtDibMS73uULP8?si=WNgl6pSyS5-OaHhZOzosgg";
