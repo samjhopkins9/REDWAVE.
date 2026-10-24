@@ -13,6 +13,11 @@
     src: url("Fonts/Cormorant-VariableFont_wght.ttf"), format("truetype");
     
 }
+@font-face {
+    font-family: "Trattatello";
+    src: url("Fonts/Trattatello.ttf"), format("truetype");
+
+}
 
 html {
     
