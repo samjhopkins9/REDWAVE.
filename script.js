@@ -39,7 +39,6 @@ document.querySelector("header").innerHTML += `<img src="${logo}" width="20%" he
 document.getElementById("links").innerHTML += `<a href=${soundlink} target="_BLANK"><div class="link"><img src="Images/soundcloud-logo.png" width="30px"></img>SOUNDCLOUD</div></a>`;
 document.getElementById("links").innerHTML += `<a href=${spotlink} target="_BLANK"><div class="link"><img src="Images/spotify-logo.png" width="30px" style=" filter: hue-rotate(-140deg) saturate(80%) brightness(90%);"></img>SPOTIFY</div></a>`;
 document.getElementById("links").innerHTML += `<a href=${applink} target="_BLANK"><div class="link"><img src="Images/apple-music-logo.png" width="30px"></img>APPLE MUSIC</div></a>`;
-document.getElementById("links").innerHTML += `<a href=${tidallink} target="_BLANK"><div class="link"><img src="Images/tidal-logo.jpg" width="30px"></img>TIDAL</div></a>`;
 
 document.getElementById("links").innerHTML += `<a href=${instalink} target="_BLANK"><div class="link"><img src="Images/Logo-Instagram-noir-1.png" width="30px"></img>INSTAGRAM</div></a>`;
 document.getElementById("links").innerHTML += `<a href=${threadslink} target="_BLANK"><div class="link"><img src="Images/threads-logo.png" width="30px"></img>THREADS</div></a>`;
