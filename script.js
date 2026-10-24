@@ -24,7 +24,6 @@ let logo = "Images/LOGO2-TRANSPARENT_FULL_LARGE.png"; // main header (logo)
 let spotlink = "https://open.spotify.com/artist/3DUGOEQlHtDibMS73uULP8?si=WNgl6pSyS5-OaHhZOzosgg";
 let applink = "https://music.apple.com/us/artist/redwave/1704251598";
 let soundlink = "https://soundcloud.com/whoisredwave";
-let tidallink = "https://tidal.com/artist/48498451";
 
 let instalink = "http://instagram.com/whoisredwave";
 let threadslink = "https://www.threads.net/@whoisredwave";
