@@ -41,17 +41,14 @@ document.getElementById("links").innerHTML += `<a href=${spotlink} target="_BLAN
 document.getElementById("links").innerHTML += `<a href=${applink} target="_BLANK"><div class="link"><img src="Images/apple-music-logo.png" width="30px"></img>APPLE MUSIC</div></a>`;
 
 document.getElementById("links").innerHTML += `<a href=${instalink} target="_BLANK"><div class="link"><img src="Images/Logo-Instagram-noir-1.png" width="30px"></img>INSTAGRAM</div></a>`;
+document.getElementById("links").innerHTML += `<a href=${ytlink} target="_BLANK"><div class="link"><img src="Images/yt-logo.png" width="30px"></img>YOUTUBE</div></a>`;
+document.getElementById("links").innerHTML += `<a href=${twtrlink} target="_BLANK"><div class="link"><img src="Images/x-logo.png" width="30px"></img>TWITTER / X</div></a>`;
+document.getElementById("links").innerHTML += `<a href=${ttlink} target="_BLANK"><div class="link"><img src="Images/tiktok-logo.png" width="30px"></img>TIKTOK</div></a>`;
 document.getElementById("links").innerHTML += `<a href=${threadslink} target="_BLANK"><div class="link"><img src="Images/threads-logo.png" width="30px"></img>THREADS</div></a>`;
 
-document.getElementById("links").innerHTML += `<a href=${ttlink} target="_BLANK"><div class="link"><img src="Images/tiktok-logo.png" width="30px"></img>TIKTOK</div></a>`;
-document.getElementById("links").innerHTML += `<a href=${twtrlink} target="_BLANK"><div class="link"><img src="Images/x-logo.png" width="30px"></img>TWITTER / X</div></a>`;
+// document.getElementById("links").innerHTML += `<a href=${audiuslink} target="_BLANK"><div class="link"><img src="Images/audiuslogo.webp" width="30px ">AUDIUS</div></a>`
 
-
-document.getElementById("links").innerHTML += `<a href=${ytlink} target="_BLANK"><div class="link"><img src="Images/yt-logo.png" width="30px"></img>YOUTUBE</div></a>`;
-
-document.getElementById("links").innerHTML += `<a href=${audiuslink} target="_BLANK"><div class="link"><img src="Images/audiuslogo.webp" width="30px ">AUDIUS</div></a>`
-
-document.querySelector("footer").innerHTML += `REDWAVE. 2025`;
+document.querySelector("footer").innerHTML += `REDWAVE. 2026`;
 
 function openReleases(){
     
